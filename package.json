@@ -1,0 +1,32 @@
+{
+  "name": "brawlchart",
+  "version": "1.0.0",
+  "description": "API Wrapper for Brawlify Trophy Graph Endpoint",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alan0893/brawlchart.git"
+  },
+  "keywords": [
+    "Brawlstars",
+    "Brawlify API Wrapper",
+    "Brawlify Chart",
+    "Brawlify Javascript"
+  ],
+  "author": "@Alan0893",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Alan0893/brawlchart/issues"
+  },
+  "homepage": "https://github.com/Alan0893/brawlchart#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  },
+  "scripts": {
+    "test": "node examples/test.js"
+  }
+}
