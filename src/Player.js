@@ -11,62 +11,15 @@ class Player {
   }
   
   /**
-   * @returns {String} player tag
-   */
-  getTag() {
-    return this.tag
-  }
-
-  /**
-   * @returns {object} trophy progression - daily, weekly, seasonal
-   */
-  getNumber() {
-    return this.number
-  }
-
-  /**
-   * @returns {number} numbers of trophies gained daily
-   */
-  getDaily() {
-    return this.number.daily
-  }
-
-  /**
-   * @returns {number} numbers of trophies gained weekly
-   */
-  getWeekly() {
-    return this.number.weekly
+  * @param {string} id brawler ID
+  * @description get player's brawler by ID
+  * @returns false if the player doesn't have the brawler || object if the player has the brawler
+  */
+  getBrawlerById(id) {
+    let brawlerById = this.brawlers.filter(x => x.id == id)
+    return brawlerById ? brawlerById : false
   }
   
-  /**
-   * @returns {number} numbers of trophies gained seasonal
-   */
-  getSeasonal() {
-    return this.number.seasonal
-  }
-  
-  /**
-   * @returns {object} data of dates tracked
-   */
-  getLabels() {
-    return this.labels
-  }
-  
-  /**
-   * @returns {object} data of trophies
-   */
-  getData() {
-    return this.data
-  }
-  
-  /**
-   * @returns {object} of brawlers with progression, labels, and data
-   */
-  return this.brawlers
-}
-  
-function error(txt) {
-  return TypeError(txt)
 }
 
 module.exports = Player
