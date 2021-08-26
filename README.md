@@ -18,4 +18,4 @@ const client     = new brawlchart.Client(token) //creates a new brawlchart Clien
   const playerClub = await client.getClub("#CLUBTAG")
 })()
 ```
-![Brawlify](https://cdn.brawlify.com/front/Star.svg) This package was made possible, using the data provided by [Brawlify](https://brawlify.com/).
+<img src="https://cdn.brawlify.com/front/Star.svg" height="15" width="20" alt="Brawlify"> This package was made possible, using the data provided by [Brawlify](https://brawlify.com/).
