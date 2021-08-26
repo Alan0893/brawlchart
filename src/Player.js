@@ -7,6 +7,7 @@ class Player {
     this.seasonal = data.number.seasonal
     this.labels   = data.labels
     this.data     = data.data
+    this.brawlers = data.brawlers
   }
   
   /**
@@ -57,6 +58,11 @@ class Player {
   getData() {
     return this.data
   }
+  
+  /**
+   * @returns {object} of brawlers with progression, labels, and data
+   */
+  return this.brawlers
 }
   
 function error(txt) {
