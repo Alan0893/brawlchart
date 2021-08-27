@@ -15,6 +15,7 @@ const client = new brawlchart.Client(process.env.TOKEN)
   console.log(player.labels)  //[Array]
   console.log(player.data)    //[Array]
   console.log(player.brawlers)//{Object}
+  console.log(player.getBrawlerById(16000040))//{Object}
 
   //Gets the Club with the tag: 2Q0YJPC9V
   const club = await client.getClub('#2Q0YJPC9V')
