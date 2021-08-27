@@ -5,8 +5,9 @@
 ➤ Due to player and club data being private, you will be required to use a unique API Token that can only be obtained through the developer of Brawlify.
 
 ## Getting Started
-1. To install this package, in your console run: `npm i brawlchart` or `npm install brawlchart`
-2. You have now installed the npm package!
+1. To install this package, in your console run: `git clone https://github.com/Alan0893/brawlchart.git` 
+2. In your package.json, add `"brawlchart": "file:brawlchart"` in your dependencies
+3. You have now installed the package!
 
 ```javascript
 const brawlchart = require("brawlchart")        //includes the brawlchart module
