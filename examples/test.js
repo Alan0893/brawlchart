@@ -7,14 +7,14 @@ const client = new brawlchart.Client(process.env.TOKEN)
   const player = await client.getPlayer('#QVV900UC') // get player by #ID
 
   //Logging the Player's info
-  console.log(player.tag)     //QVV900UC
-  console.log(player.number)  //{ daily: 45, weekly: -853, seasonal: -861 }
-  console.log(player.daily)   //45
-  console.log(player.weekly)  //-853
-  console.log(player.seasonal)//-861
-  console.log(player.labels)  //[Array]
-  console.log(player.data)    //[Array]
-  console.log(player.brawlers)//{Object}
+  console.log(player.tag)                     //QVV900UC
+  console.log(player.number)                  //{ daily: 45, weekly: -853, seasonal: -861 }
+  console.log(player.daily)                   //45
+  console.log(player.weekly)                  //-853
+  console.log(player.seasonal)                //-861
+  console.log(player.labels)                  //[Array]
+  console.log(player.data)                    //[Array]
+  console.log(player.brawlers)                //{Object}
   console.log(player.getBrawlerById(16000040))//{Object}
 
   //Gets the Club with the tag: 2Q0YJPC9V
