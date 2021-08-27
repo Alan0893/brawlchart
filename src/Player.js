@@ -16,7 +16,7 @@ class Player {
   * @returns false if the player doesn't have the brawler || object if the player has the brawler
   */
   getBrawlerById(id) {
-    let brawlerById = this.brawlers.filter(x => x.id == id)
+    let brawlerById = this.brawlers[id]
     return brawlerById ? brawlerById : false
   }
   
