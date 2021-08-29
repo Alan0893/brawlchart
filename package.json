@@ -4,8 +4,7 @@
   "description": "API Wrapper for Brawlify Trophy Graph Endpoint",
   "main": "index.js",
   "directories": {
-    "example": "examples",
-    "lib": "lib"
+    "example": "examples"
   },
   "repository": {
     "type": "git",
