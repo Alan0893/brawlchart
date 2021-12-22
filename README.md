@@ -25,8 +25,8 @@ const token      = "Your Token"                 //your unique API token
 const client     = new brawlchart.Client(token) //creates a new brawlchart Client
 
 ;(async() => {
-  const player     = await client.getPlayer("#PLAYERTAG")
-  const playerClub = await client.getClub("#CLUBTAG")
+  const player     = await client.getPlayer("#PLAYERTAG") //Fetches a player stats as given in the parameter  
+  const playerClub = await client.getClub("#CLUBTAG")     //Fetches a club stats as given in the parameter
 })()
 ```
 More examples pertaining to player and club data can be found [here](https://github.com/Alan0893/brawlchart/blob/main/examples/test.js).
