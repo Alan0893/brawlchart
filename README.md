@@ -15,7 +15,7 @@ If you get the error stated above, follow the instructions below:
 1. Open VS Code
 2. Hit `ctrl + ,`
 3. In the seach bar, type `git path`
-4. Click `add thi path`
+4. Click `add this path`
 5. You should now be able to use `git` in VS Code
 
 ## Example
