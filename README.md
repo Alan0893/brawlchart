@@ -1,4 +1,4 @@
-# brawlchart
+# brawlchart - DEPRECATED
 **API Wrapper for Brawlify Trophy Graphs.**
 
 ## Before you Start
